@@ -2,6 +2,7 @@
 
 This server is created using the principles and data from another project.
 The original project used Python. I am using Node, Express, Nodemon and CSV parser.
+It is a mock server!
 
 It has only one route: GET
 **localhost:3000/quotes**
