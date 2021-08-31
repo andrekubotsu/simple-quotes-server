@@ -1,6 +1,6 @@
 # A simple quotes server
 
-This server is created using the principles and data from another project.
+This server is created using the principles and data from another project (https://github.com/celso-henrique/naruto-quotes-server).
 The original project used Python. I am using Node, Express, Nodemon and CSV parser.
 It is a mock server!
 
