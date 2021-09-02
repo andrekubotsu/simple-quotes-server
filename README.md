@@ -5,7 +5,7 @@ The original project used Python. I am using Node, Express, Nodemon and CSV pars
 It is a mock server!
 
 It has only one route: GET
-**localhost:3000/quotes**
+**localhost:7000/quotes**
 
 It returns a random quote each time it is accessed.
 

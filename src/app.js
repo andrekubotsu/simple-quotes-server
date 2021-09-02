@@ -9,8 +9,11 @@ app.use(cors());
 app.get('/quotes', async (request, response) => {
     const records = await processFile();
     let randomIndex = Math.floor(Math.random() * 509);
-  
-    return response.json(records[randomIndex]);
+    let singleQuoteResponse = records[randomIndex];
+    return response.json({
+        speaker: singleQuoteResponse[1],
+        quote: singleQuoteResponse[2]
+    });
 });
 
 export default app;
