@@ -14,3 +14,6 @@ It returns a random quote each time it is accessed.
 **To execute**
 - yarn
 - yarn dev
+
+**Important**
+Feel free to use, it has study and/or mock purposes..
